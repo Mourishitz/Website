@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 204 204" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="paint0_linear_16_339" x1="-12.4348" y1="91.2145" x2="228.124" y2="92.098" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#AA367C"/>
+      <stop offset="1" stop-color="#4A2FBD"/>
+    </linearGradient>
+    <linearGradient gradientUnits="userSpaceOnUse" x1="101.539" y1="46.334" x2="101.539" y2="157.598" id="gradient-1" spreadMethod="pad" gradientTransform="matrix(0.594362, 0.804197, -0.761902, 0.563105, 81.528877, -12.210767)">
+      <stop offset="0" style="stop-color: rgba(161, 53, 131, 1)"/>
+      <stop offset="1" style="stop-color: rgb(88, 48, 180);"/>
+    </linearGradient>
+    <radialGradient gradientUnits="userSpaceOnUse" cx="76.529" cy="121.649" r="58.495" id="gradient-0" gradientTransform="matrix(1.248293, -0.653671, 0.463897, 0.885889, -72.061853, 62.600964)">
+      <stop offset="0" style="stop-color: rgb(161, 53, 130);"/>
+      <stop offset="1" style="stop-color: rgb(89, 48, 179);"/>
+    </radialGradient>
+  </defs>
+  <path d="M 180.815 83.688 C 179.497 78.016 199.226 70.614 200.696 76.248 C 206.238 97.486 204.802 120.051 196.436 140.546 C 186.737 164.31 168.435 183.543 145.182 194.409 C 121.928 205.275 95.433 206.975 70.982 199.169 C 46.531 191.364 25.921 174.628 13.264 152.299 C 0.607 129.97 -3.166 103.69 2.697 78.702 C 8.559 53.713 23.627 31.854 44.894 17.484 C 66.161 3.114 92.064 -2.709 117.435 1.175 C 139.317 4.524 187.69 19.195 200.667 76.225 C 201.959 81.902 182.578 89.214 180.811 83.665 C 165.19 34.6 130.877 24.564 114.244 22.018 C 94.118 18.937 73.57 23.557 56.699 34.956 C 39.829 46.355 27.876 63.696 23.225 83.518 C 18.574 103.34 21.568 124.188 31.608 141.901 C 41.649 159.614 57.998 172.89 77.394 179.082 C 96.791 185.274 117.809 183.925 136.255 175.305 C 154.701 166.686 169.219 151.429 176.914 132.578 C 183.273 116.999 184.584 99.912 180.815 83.688 Z" style="" fill="url(#paint0_linear_16_339)"/>
+  <path d="M 101.539 46.334 L 116 87.936 L 160.034 88.833 L 124.937 115.441 L 137.691 157.598 L 101.539 132.441 L 65.387 157.598 L 78.141 115.441 L 43.044 88.833 L 87.078 87.936 Z" style="paint-order: fill markers; fill-rule: nonzero; fill: url(#gradient-1); stroke: url(#gradient-0);"/>
+</svg>
