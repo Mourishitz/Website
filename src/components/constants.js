@@ -6,6 +6,8 @@ import cuppy from "../assets/img/cuppy.png";
 import lightstand from "../assets/img/lightstand.png"
 import infocar from "../assets/img/infocar.png";
 import breast_cancer from "../assets/img/breast-cancer-ai.png"
+import blockchain_java from "../assets/img/blockchain-java.png"
+import writter_spot from "../assets/img/writter-spot.png"
 
 export const mail_receiver = "gabrielmorishita@hotmail.com"
 
@@ -88,6 +90,18 @@ export const projects = [
       repository: "https://github.com/Mourishitz/task-helper"
     },
     {
+      title: "Writter Spot",
+      description: "API em NestJS para publicação de artigos, clone da plataforma 'medium'",
+      imgUrl: writter_spot,
+      repository: "https://github.com/Mourishitz/WritterSpot"
+    },
+    {
+      title: "Crypto Java",
+      description: "Blockchain feita com Java nativo",
+      imgUrl: blockchain_java,
+      repository: "https://github.com/Mourishitz/Crypto-Java"
+    },
+    {
       title: "Light Stand",
       description: "Equipe de Desenvolvimento - Startup",
       imgUrl: lightstand,
@@ -129,10 +143,60 @@ export const jobs = [
 
 export const courses =[
     {
+        "title": "NestJS - Construindo API para projetos reais do zero",
+        "school": {
+            "name": "Udemy",
+            "url": "https://udemy.com",
+            "img": "https://cdn.iconscout.com/icon/free/png-256/udemy-3772435-3151561.png"
+        },
+        "date": "Fevereiro 2023",
+        "certificate": "https://www.udemy.com/certificate/UC-b2805dbb-ed7a-462c-a12b-e54cf063734f/",
+        "skills": [
+            "Maturidade de API",
+            "Fundamentos de NestJS",
+            "TypeORM Avançado",
+            "Boas práticas com NPM e TS-Node"
+        ]
+    },
+    {
+        "title": "Clean Code",
+        "school": {
+            "name": "Udemy",
+            "url": "https://udemy.com",
+            "img": "https://cdn.iconscout.com/icon/free/png-256/udemy-3772435-3151561.png"
+        },
+        "date": "Fevereiro 2023",
+        "certificate": "https://www.udemy.com/certificate/UC-8a4fcb18-a566-40a5-8361-5a117a70297d/",
+        "skills": [
+            "Código Limpo e Boas Práticas de desenvolvimento",
+            "Condicionais e tratamentos dee erros",
+            "Estratégias de nomeclatura",
+            "Estrutura e Comentários",
+            "Classes e estruturas de dados"
+        ]
+    },
+    {
+        "title": "Princípios SOLID: Arquitetura de Software e Design",
+        "school": {
+            "name": "Udemy",
+            "url": "https://udemy.com",
+            "img": "https://cdn.iconscout.com/icon/free/png-256/udemy-3772435-3151561.png"
+        },
+        "date": "Fevereiro 2023",
+        "certificate": "https://www.udemy.com/certificate/UC-370ec07c-de6a-449b-bc34-73876410f976/",
+        "skills": [
+            "5 Princípios de SOLID",
+            "Arquitetura de Software e Design Patterns",
+            "Conceitos de boas práticas e desenvolvimento orientado a objetos",
+            "Patterns mais utilizados: TDD e DDD"
+        ]
+    },
+    {
         "title": "Computação em Nuvem (Cloud Computing)",
         "school": {
             "name": "Udemy",
-            "url": "https://udemy.com"
+            "url": "https://udemy.com",
+            "img": "https://cdn.iconscout.com/icon/free/png-256/udemy-3772435-3151561.png"
         },
         "date": "Fevereiro 2023",
         "certificate": "https://www.udemy.com/certificate/UC-3d88a8d3-4338-4533-9c7c-7e82580767f8/",
@@ -146,7 +210,8 @@ export const courses =[
         "title": "Fundamentos da Engenharia Backend",
         "school": {
             "name": "Udemy",
-            "url": "https://udemy.com"
+            "url": "https://udemy.com",
+            "img": "https://cdn.iconscout.com/icon/free/png-256/udemy-3772435-3151561.png"
         },
         "date": "Fevereiro 2023",
         "certificate": "https://www.udemy.com/certificate/UC-55773b40-ffd4-4a73-91ba-590aff38ede4/",
@@ -164,7 +229,8 @@ export const courses =[
         "title": "Guia Completo SSL e TLS: HTTP ao HTTPS",
         "school": {
             "name": "Udemy",
-            "url": "https://udemy.com"
+            "url": "https://udemy.com",
+            "img": "https://cdn.iconscout.com/icon/free/png-256/udemy-3772435-3151561.png"
         },
         "date": "Fevereiro 2023",
         "certificate": "https://www.udemy.com/certificate/UC-c2eaef67-fa9f-42a4-8127-356fa2344112/",
@@ -181,7 +247,8 @@ export const courses =[
         "title": "Web Avançado com PHP, Laravel e Vue.JS",
         "school": {
             "name": "Udemy",
-            "url": "https://udemy.com"
+            "url": "https://udemy.com",
+            "img": "https://cdn.iconscout.com/icon/free/png-256/udemy-3772435-3151561.png"
         },
         "date": "Fevereiro 2023",
         "certificate": "https://www.udemy.com/certificate/UC-ecc1c872-2e16-4785-b5ed-1c3fabe4efe9/",
@@ -198,7 +265,8 @@ export const courses =[
         "title": "Docker Fundamental",
         "school": {
             "name": "Udemy",
-            "url": "https://udemy.com"
+            "url": "https://udemy.com",
+            "img": "https://cdn.iconscout.com/icon/free/png-256/udemy-3772435-3151561.png"
         },
         "date": "Fevereiro 2023",
         "certificate": "https://www.udemy.com/certificate/UC-a56a7ab6-8d23-40fe-b74a-401f91aa13aa/",
@@ -214,7 +282,8 @@ export const courses =[
         "title": "Formação Modelagem de Banco de Dados",
         "school": {
             "name": "Alura",
-            "url": "https://alura.com.br"
+            "url": "https://alura.com.br",
+            "img": "https://www.nerdin.com.br/img/alura_a_circulo.png"
         },
         "date": "Dezembro 2022",
         "certificate": "https://cursos.alura.com.br/degree/certificate/96a319fd-8866-4e6c-ab23-4818a63d8f64",
@@ -229,7 +298,8 @@ export const courses =[
         "title": "Formação Python e Orientação a Objetos",
         "school": {
             "name": "Alura",
-            "url": "https://alura.com.br"
+            "url": "https://alura.com.br",
+            "img": "https://www.nerdin.com.br/img/alura_a_circulo.png"
         },
         "date": "Dezembro 2022",
         "certificate": "https://cursos.alura.com.br/degree/certificate/ce66a421-57e1-4a35-9f13-04ddb1710537",

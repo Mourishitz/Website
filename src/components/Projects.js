@@ -92,7 +92,7 @@ export const Projects = () => {
                                 contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
                                 date={course.date}
                                 iconStyle={{ background: '#000000', color: '#fff' }}
-                                icon={<img src={""}/>}
+                                icon={<img src={`${course.school.img}`}/>}
                               >
                                 <h3 className="vertical-timeline-element-title">{course.title}</h3>
                                 <h4 className="vertical-timeline-element-subtitle mt-2">
