@@ -8,7 +8,7 @@ const experience = [
   {
     role: "Backend Developer",
     company: "Infocar Technologies",
-    period: "December 2022 - Current",
+    period: "December 2022 - July 2025",
     type: "Full-time",
     companyIcon: "fa:circle-o",
     companyColor: "from-red-500 to-red-600",
